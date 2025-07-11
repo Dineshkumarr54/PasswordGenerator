@@ -1,12 +1,39 @@
-# React + Vite
+# 🔐 Password Generator App (React + Firebase)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure and modern password generator app with Google authentication and encrypted password storage using Firebase.
 
-Currently, two official plugins are available:
+![Login Screen](./screenshots/login.png)
+![Password Generator](./screenshots/password-generator.png)
+![Saved Passwords](./screenshots/saved-passwords.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Google Sign-in with Firebase  
+✅ Generate strong, customizable passwords  
+✅ Save encrypted passwords with a hint  
+✅ View, copy, and delete stored passwords  
+✅ Realtime syncing via Firestore  
+✅ 🌙 Dark mode toggle  
+✅ Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Authentication**: Firebase Auth (Google Sign-in)
+- **Database**: Firebase Firestore (NoSQL)
+- **Encryption**: AES via CryptoJS
+- **Hosting**: Vercel / Firebase Hosting
+- **Styling**: Custom CSS (Dark Mode + UI refinements)
+
+---
+
+## 🧪 Local Setup
+
+```bash
+git clone https://github.com/your-username/password-generator-app.git
+cd password-generator-app
+npm install
