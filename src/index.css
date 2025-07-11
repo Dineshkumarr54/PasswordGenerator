@@ -1,0 +1,76 @@
+/* Light and Dark Mode */
+body.light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+/* Font and Layout */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  transition: background-color 0.3s ease;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="range"],
+input[readonly] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+body.dark input {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #eee;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.danger {
+  background-color: #e53935;
+}
+
+button.danger:hover {
+  background-color: #b71c1c;
+}
